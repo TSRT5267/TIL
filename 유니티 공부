@@ -1,1 +1,9 @@
+# 목차
+
+# 2024_06_12
+유니티 C# 스크립트에서 Start() 메소드는 Update()메서드가 호출되기 전 한번 호출됨 Update()메서드는 매 프레임 마다 호출
+InPut.GetAxis("Vertical")은 'A','D'와 좌우 방향키를 키다운시 -1~1값을 리턴
+InPut.GetAxis("Horizontal")은 'W','S'와 상하 방향키를 키다운시 -1~1값을 리턴
+Time.deltaTime은 1초를 프레임을 나눈값, 기기마다 프레임이 달라도 같은 결과를 만들때 사용
+
 
