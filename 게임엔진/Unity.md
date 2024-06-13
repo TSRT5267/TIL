@@ -17,4 +17,6 @@ Audio Source 컴포넌트는 소리를 추가해줄수 있음
 Collider이름을 가진 컴포넌트는 사물에 충돌 범위를 지정가능 물리요소를 지상위에 있게 할려면 필수  
 Transform클래스에는 Transform 컴포넌트가 붙어 있는 게임 오브젝트 기준으로 상대 방향 벡터로 변환해주는 TransformDirection()함수가 있음  
 
+# 컴포넌트(Component)
+Rigidbody 와 Charactor Controller의 차이
 
