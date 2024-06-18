@@ -18,4 +18,8 @@ Transform클래스에는 Transform 컴포넌트가 붙어 있는 게임 오브�
 
 ## 컴포넌트(Component)
 Rigidbody 와 Charactor Controller의 차이
+priority의 값에 따라서 같은 기능이 동시에 활성화 되어도 우선선적으로 작동하게할 기능을 선택 가능하다 (값이 높을수로 우선순위가 높음)  
+
+
+
 
