@@ -20,6 +20,17 @@ Transform클래스에는 Transform 컴포넌트가 붙어 있는 게임 오브�
 Rigidbody 와 Charactor Controller의 차이
 priority의 값에 따라서 같은 기능이 동시에 활성화 되어도 우선선적으로 작동하게할 기능을 선택 가능하다 (값이 높을수로 우선순위가 높음)  
 
-
+## 캐스팅
+캐스팅 함수의 종류는 Physics와 Physics2D가 조금 달라질 수 있다  
+3D와 2D가 다르듯 구형태 캐스팅은 2D에서 원영태 캐스팅으로 정의되어 있다   
+### Raycast(), SphereCast(), BoxCast(), CapsuleCast() 
+일반적으로 첫번째로 충돌된 오브젝트에 대한 여부를 나타냄  
+bool값의 반환값을 받거나 RayCastHit 타입의 객체를 반환
+### RaycastAll(), SphereCastAll(), BoxCastAll(), CapsuleCastAll()
+RayCastHit[] 타입의 배열을 반환한다   
+첫번째 충돌에 대한 정보가 아닌 최대거리까지 캐스트 영역을 발사하여 충돌한 모든 오브젝트의 정보를 반환
+### LineCast(Vector3 a, Vector3 b)
+a와 b 사이에 충돌될 오브젝트가 있는지 여부를 반환한다 실질적으로 Raycast의 시작점을 a, 방향을 b를 바라보고 최대거리를 a,b사이 거리를 넣는다면 같은 기능이지만   
+Vector3값 두개만을 인자로 받기 때문에 두 물체사이의 충돌물체검증에 있어서 훨씬 간편하게 사용할수 있음
 
 
