@@ -40,3 +40,8 @@ isTrigger를 활성화 하면 충돌시 물리는 사라지고 Trigger만 실행
 ## Tag 와 Layer   
 tag는 오브젝트를 논리적으로 부별하기 위해 사용됨  
 layer는 물리연산,렌더링,오브젝트를 관리하기 위해 사용   
+
+## 속도이동 vs 위치이동
+속도이동은 빠른 이동은 구현할시 사용하면 좋다 빠른이동을 위치이동으로 구현하면 벽을 관통하는 버그가 생김   
+속도이동은 LinearVelocity 또는 AddForce를 사용하고   
+위치이동은 Translate 또는 Movetoward를 사용한다   
